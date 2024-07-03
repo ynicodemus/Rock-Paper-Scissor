@@ -1,0 +1,95 @@
+body{
+    background-color: #ECECEC;
+}
+
+#main{
+    width: 390px;
+    height: 450px;
+    border: 1px solid 104746;
+    padding: 30px;
+    padding-top: 10px;
+    margin-inline: auto;
+    margin-top: 250px;
+    background-color: #3282B8;
+    border-radius: 25px;
+}
+
+#subMain{
+    width: 380px;
+    height: 300px;
+    border: 1px solid 104746;
+    padding-left: 10px;
+    padding-top: 20px;
+    margin-inline: auto;
+    background-color: #ECECEC;
+    border-radius: 25px;
+}
+
+#rps{ /*first image (homepage)*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 79%;
+}
+
+#gameplay{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#startBtn:hover{
+    color: #ECECEC;
+    cursor: pointer;
+}
+
+#scoring{
+    display: inline-flex;
+}
+#scores{
+    display: inline;
+}
+
+
+#conseqDiv{
+    text-align: center;
+    padding: 20px;
+}
+
+.choicesRPS{
+    width: 100px;
+}
+
+.computerMirror{
+    margin-top: 20px;
+    width: 80%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    float: right;
+}
+.playerMirror{
+    margin-top: 20px;
+    width: 80%;
+}
+
+.bigFont{
+    text-align: center;
+    font-family: Papyrus;
+    line-height: 80%;
+    color: #ECECEC;
+}
+
+.smallFont{
+    font-size: 20px;
+    text-align: center;
+    font-family: Papyrus;
+    line-height: 50%;   
+}
+.smallFont:hover{
+    color: #ECECEC;
+}
+
+.small_Font{
+    font-size: 15px;
+    text-align: center;
+    font-family: Papyrus;
+    line-height: 30%;   
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="main">
+        <h1 class="bigFont">Rock Paper Scissor <br> <p class="smallFont">with a twist</p></h1>
+        
+        <div id="subMain">
+            <img src="image.png" id="rps"> <!--rock paper scissor-->
+
+            <h1 class="bigFont"></h1>
+            <p id="gameplay"></p>
+            <div id="startBtn" onclick="StartGame()"></div>
+
+            <p id="scoring" class="small_Font"><p id="scores" class="small_Font"></p></p>
+            <div id="innerDiv">
+                <div id="player">
+                    <p id="playertxt" style="text-align: center;"></p>
+                    <img src="" id="player_choice" class="playerMirror">
+                </div>
+                <div id="computer">
+                    <p id="comptxt" style="text-align: center;"></p>
+                    <img src="" id="computer_choice" class="computerMirror">
+                </div>
+                <div id="choices">
+                    <p id="choosetxt"></p>
+                    <img src="" onclick="Gamestart('R')" id="rock" class="choicesRPS">
+                    <img src="" onclick="Gamestart('P')" id="paper" class="choicesRPS">
+                    <img src="" onclick="Gamestart('S')" id="scissor" class="choicesRPS">
+                </div>
+            </div>
+            <p id="result"></p>
+            <div id="conseqDiv" class="smallFont" style="line-height: 80px;"></div>
+
+            
+
+
+        </div>
+
+        <p class="smallFont" id="start" onclick="instruction()" style="cursor: pointer;">click to start</p>
+
+    </div>
+
+
+
+
+    <script src="functions.js"></script>
+    
+</body>
+</html>
